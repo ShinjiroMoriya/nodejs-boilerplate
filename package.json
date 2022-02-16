@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "cgc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "connect-flash": "^0.1.1",
+    "connect-redis": "^6.1.1",
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "ioredis": "^4.28.5",
+    "jsforce": "^1.11.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "validatorjs": "^3.22.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write */*.js && prettier --write *.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
